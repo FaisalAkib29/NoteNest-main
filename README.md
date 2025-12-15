@@ -53,4 +53,12 @@ NoteNest is a web-based personal cloud drive for managing notes and files. It al
 - `uploads/notes/` — User uploaded files
 - `img/user_photos/` — User profile photos
 
+## Security Highlights
+
+- Each user can access only their own files and folders through strict access control
+- All file uploads and form inputs are validated and sanitized to prevent malicious data
+- User passwords are securely hashed before being stored in the database
+- All database queries use prepared statements to protect against SQL injection
+
+
 
