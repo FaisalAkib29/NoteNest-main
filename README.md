@@ -14,3 +14,43 @@ NoteNest is a web-based personal cloud drive for managing notes and files. It al
 - Notifications for sharing and todo reminders
 - Security: user data isolation, input validation, password hashing, prepared statements
 
+
+## Tech Stack
+
+- PHP (8.x recommended)
+- MySQL
+- HTML
+- Bootstrap 5
+- Font Awesome
+
+## Main Files & Structure
+
+### Core Pages
+- `dashboard.php` — Main user dashboard
+- `my_note_nest.php` — Personal files and folder management
+- `shared_note_nest.php` — Files and folders shared with the user
+- `favorites.php` — Favorites management
+- `todo.php` — To-do list and reminders
+- `profile.php` — User profile management
+
+### Authentication
+- `register.php` — User registration
+- `login.php` — User login
+- `logout.php` — User logout
+
+### File & Sharing Management
+- `share.php` — Share files and folders
+- `share_management.php` — Manage and revoke shared access
+- `note_download.php` — Secure file download
+- `note_preview.php` — File preview functionality
+
+### Notifications & Background Tasks
+- `notifications.php` — Notification system
+- `cron/todo_reminder.php` — Automated to-do reminders
+
+### Supporting Directories
+- `includes/` — Authentication, database connection, common functions, navigation
+- `uploads/notes/` — User uploaded files
+- `img/user_photos/` — User profile photos
+
+
